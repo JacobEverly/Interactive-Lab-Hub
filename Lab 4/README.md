@@ -307,4 +307,4 @@ https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Lab%204/desktop
 
 * "Acts like": shows how a person would interact with the device
 https://drive.google.com/drive/folders/1nbc4tHpnQMY8o7fBmPfqGKSBSL0p9mIK?ths=true
-In this folder there is a video labeled "Final Interaction" of a user using the box to "charge" the led display and using the capactive touch to reset their current progress to their recycle goal. ( The video still would not compress to the max of 10 MB that github allows for a single video )
+In this folder there is a video labeled "Final Interaction" of a user using the box to "charge" the led display and using the capactive touch to reset their current progress to their recycle goal. ( The video still would not compress to the max of 10 MB that github allows for a single video so I still added it to a google drive. )
