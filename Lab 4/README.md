@@ -293,6 +293,8 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 The device is intended to sit on the users desk or counter. The design is meant to be as minimalist as possible so the user doesn't find it as distraction. Similar to a kleenex box on your desk. It is also meant to be a more neutral color so it won't clash with the color scheme of the person's desk. The video in the google drive shows how the box could sit on a person's desk.
 
 Pictures of the final form factor.
+
+
 <img width="472" alt="Screen Shot 2022-10-18 at 6 44 19 PM" src="https://user-images.githubusercontent.com/112036223/196559114-02b5dfd1-0927-49fd-8935-8fbffefb1b44.png">
 <img width="471" alt="Screen Shot 2022-10-18 at 6 44 13 PM" src="https://user-images.githubusercontent.com/112036223/196559130-dba749e0-7b05-49bf-9cc4-47b364676a69.png">
 
