@@ -302,7 +302,9 @@ https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Lab%204/desktop
  
  Visualization of the Field of View and Calibration problems we ran into.
  <img width="719" alt="Screen Shot 2022-10-18 at 6 44 37 PM" src="https://user-images.githubusercontent.com/112036223/196559153-9522f03d-a774-4dcc-a5f9-2cea2ccabef8.png">
+ 
  Picture of the wiring setup we ended up with.
+ 
 <img width="653" alt="Screen Shot 2022-10-18 at 6 46 47 PM" src="https://user-images.githubusercontent.com/112036223/196559287-37f08008-1ebe-473b-b63d-cdb6b9fbf002.png">
 
 * "Acts like": shows how a person would interact with the device
