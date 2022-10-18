@@ -286,12 +286,25 @@ We encourage you to try using these controls, **while** paying particular attent
 
 ### Part F
 ### Record
+The thought process for building the box was to laser cut it out of cardboard as this would be faster to make instead of utilizing additive maunfacturing. The box was assembled by using tape and glue as the binder. We then decided to chain all of the devices together insted of soldering any of the devices to a microcontroller to save time on the devolpment side. We ran one piece of capactive tape all around the inside and then through a hole in the box and then to the sensor. Overall this setup and with the code seems to be really responsive and through testing it about a 100 times the accuracy is very nice.
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 The device is intended to sit on the users desk or counter. The design is meant to be as minimalist as possible so the user doesn't find it as distraction. Similar to a kleenex box on your desk. It is also meant to be a more neutral color so it won't clash with the color scheme of the person's desk. The video in the google drive shows how the box could sit on a person's desk.
+<img width="472" alt="Screen Shot 2022-10-18 at 6 44 19 PM" src="https://user-images.githubusercontent.com/112036223/196559114-02b5dfd1-0927-49fd-8935-8fbffefb1b44.png">
+<img width="471" alt="Screen Shot 2022-10-18 at 6 44 13 PM" src="https://user-images.githubusercontent.com/112036223/196559130-dba749e0-7b05-49bf-9cc4-47b364676a69.png">
+
+Link to code on how the device works
+https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Lab%204/desktop_recycling_bin.py
+
 * "Works like": shows what the device can do
  The device works by using a proximity sensor, a capactive touch system, led display and the raspberry pi. The proximity sensor is calibrated to sense when a piece of trash is dropped into the box. This sensor is paired with a custom designed nozzle to accomadate for the potentialy limited feild of vision the sensor has. The sensor was also calibrated so it didn't read the other end of the box and only the piece of trash. The capactive sensor is placed on the bottom and is tripped when a user would be emptying the box so the counter would restart. The LED dsiplay is used to track the users current progress to their goal. Even though this display is discrete, the dots can be changed to represent more then one piece of trash if the user wants to change their goal.
+ 
+ Visualization of the Field of View and Calibration problems we ran into.
+ <img width="719" alt="Screen Shot 2022-10-18 at 6 44 37 PM" src="https://user-images.githubusercontent.com/112036223/196559153-9522f03d-a774-4dcc-a5f9-2cea2ccabef8.png">
+ Picture of the wiring setup we ended up with.
+<img width="653" alt="Screen Shot 2022-10-18 at 6 46 47 PM" src="https://user-images.githubusercontent.com/112036223/196559287-37f08008-1ebe-473b-b63d-cdb6b9fbf002.png">
+
 * "Acts like": shows how a person would interact with the device
 https://drive.google.com/drive/folders/1nbc4tHpnQMY8o7fBmPfqGKSBSL0p9mIK?ths=true
-In this folder there is a video of a user using the box to increase the led display and using the capactive touch to reset their score.
+In this folder there is a video labeled "Final Interaction" of a user using the box to "charge" the led display and using the capactive touch to reset their current progress to their recycle goal. ( The video still would not compress to the max of 10 MB that github allows for a single video )
