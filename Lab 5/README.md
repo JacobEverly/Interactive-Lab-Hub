@@ -268,31 +268,44 @@ This might take a while to get fully installed. After installation, connect your
 
 ##### Interaction being prototyped:
 
-Have a system that can detect when water is boiling. This can be used when cooking pasta or rice as you need to boil water for both.
+Have a system that can detect when water is boiling. This can be used when cooking pasta or rice as you need to boil water for both. For now we will just use the system for cooking pasta.
+
+What the system will do is monitor the noise from the pot of water and once a threshold is met will alert the chef to put that pasta in. Once the chef says "The pasta is in". The system will then start a 10 minute timer and at the end of the timer alert the cook when the pasta is finished.
 
 ##### Context ( Situational )
 
 Who is involved:
+A Cook and the pasta they want to make.
 
 What is making noise:
+The boiling pot of water that is intended to be used to make pasta.
 
 When:
+During the meal being prepared by the chef
 
 Where:
+In the kitchen or wherever the meal is being prepared.
 
 ##### Presense ( Intent )
 
 Task Goals:
+To inform the cook of when the water is ready, so they can throw the pasta in and cook it.
 
 When to stand out:
+When the water is ready for the pasta to be thrown in
 
 When to blend in:
+All the other times when the cook is cooking.
 
 ##### Behavior ( Reaction )
 
 Implicit Behaviors:
+    -Measuring the noise coming from the pot
+    -Starting timer for when the pasta is thrown in
 
 Explicit Behaviors:
+    -Letting the cook know when the water is ready for the pasta
+    -Letting the cook know when the pasta is done.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
@@ -318,11 +331,20 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+    Automate a task in cooking for a chef that could be balancing a lot of tasks all at the same time.
 * What is a good environment for X?
+    A kitchen that does not have a sustained amount of noise.
 * What is a bad environment for X?
+    A very loud kitchen that has a sustained noise louder then the sound of boiling water.
 * When will X break?
+    When loud outside noises cause the object to prematurely execute.
+    Ay foreign objects that the sensors think would be the pasta box being thrown into the water.
 * When it breaks how will X break?
+    It will prematurely que the chef
+    Start the timer for the pasta too soon
+    Not work at all
 * What are other properties/behaviors of X?
+    Can also be reporgammed and used for the purpose of cooking rice.
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
