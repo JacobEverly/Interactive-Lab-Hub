@@ -159,6 +159,11 @@ Using the microphone, try one of the following:
 
 We were able to detect when a signal went above a certain value. We did this by looking for loud noises in a space.
 
+https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Lab%205/audio_processing/threshold_detection.py
+
+The code is here ^
+
+
 **2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
