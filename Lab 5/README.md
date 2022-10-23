@@ -103,6 +103,15 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+Contours Detection:
+With contour detection you can detect edges in an image being captured by the camera. A use case for this type of program could be used to sense the fatigue of materials over time. If you were running a fatigue experiment in a lab, you could use this software to track the materials shape over time. You could sink this feature with the amount of cycles to get qaulatative video. You could also pull the data from the image to anaylze mathmatically how the images change over time.
+Face Detection:
+With face detection the camera identifies faces and features of the face. A use case of this could be if you are a resatraunt you could track frequent customers orders. If the camera could recognize the customers order and then track their tendencies. The customer could be prompted then when they walk into the store what their most popular orders are and quickly order if it what they want.
+Flow-detection:
+Flow detection senses points that are moving through the image and tracks their path. This is seen in our example as the cars being tracked in the video. An application of this can be used in biomechanics studies. In these studies you track multiple points on the body to anyalze dynamic kinetics and metrics such as a person's gait. If you could get the sampling rate high enough to where you could have a smoother line, this could be a soultion for this problem.
+Object Detection:
+Object detection can detect objects, and if given a training set can detect onjects as is. We all have that one drawer, shelf or box that is filled with an assortment of random objects. If you could provide the sensor a training set of common household objects and created a directory. You could track all of the objects in the drawer and display the objects on a screen outside the drawer on a screen. This would save you the time of hustling through a drawer and wondering if there was a blue pen in it.
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
