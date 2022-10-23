@@ -163,6 +163,8 @@ https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Lab%205/audio_p
 
 The code is here ^
 
+[Link to video](https://youtu.be/PA3nwMi4m4c)
+
 
 **2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
