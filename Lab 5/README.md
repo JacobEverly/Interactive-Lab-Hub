@@ -113,13 +113,24 @@ images change over time.
 ##### Face Detection:
 With face detection the camera identifies faces and features of the face. A use case of this could be if you are a resatraunt you could track frequent customers orders. If the camera could recognize the customers order and then track their tendencies. The customer could be prompted then when they walk into the store what their most popular orders are and quickly order if it what they want.
 
+![Contours detection output](./images/face_detection.png)
 
-Flow-detection:
+##### Flow-detection:
 Flow detection senses points that are moving through the image and tracks their path. This is seen in our example as the cars being tracked in the video. An application of this can be used in biomechanics studies. In these studies you track multiple points on the body to anyalze dynamic kinetics and metrics such as a person's gait. If you could get the sampling rate high enough to where you could have a smoother line, this could be a soultion for this problem.
 
+![Flow Detection Cars Person](./images/flow_detection_person.png)
 
-Object Detection:
+![Flow Detection Cars Traffic](./images/flow_detection_traffic.png)
+
+
+##### Object Detection:
 Object detection can detect objects, and if given a training set can detect onjects as is. We all have that one drawer, shelf or box that is filled with an assortment of random objects. If you could provide the sensor a training set of common household objects and created a directory. You could track all of the objects in the drawer and display the objects on a screen outside the drawer on a screen. This would save you the time of hustling through a drawer and wondering if there was a blue pen in it.
+
+
+![Object Detection Multiple Objects](./images/object_detection_multiple-objects.png)
+
+![Object Detection Plant Example](./images/object_detection_plant.png)
+
 
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
