@@ -103,11 +103,14 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
-Contours Detection:
+##### Contours Detection:
+
 With contour detection you can detect edges in an image being captured by the camera. A use case for this type of program could be used to sense the fatigue of materials over time. If you were running a fatigue experiment in a lab, you could use this software to track the materials shape over time. You could sink this feature with the amount of cycles to get qaulatative video. You could also pull the data from the image to anaylze mathmatically how the 
 images change over time.
 
-Face Detection:
+![Contours detection output](./images/contour_detection.png)
+
+##### Face Detection:
 With face detection the camera identifies faces and features of the face. A use case of this could be if you are a resatraunt you could track frequent customers orders. If the camera could recognize the customers order and then track their tendencies. The customer could be prompted then when they walk into the store what their most popular orders are and quickly order if it what they want.
 
 
