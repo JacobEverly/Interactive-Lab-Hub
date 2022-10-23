@@ -135,18 +135,18 @@ Object detection can detect objects, and if given a training set can detect onje
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
-To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1 second of audio. 
+To get the microphone working we need to install two libraries. `PyAudio` to get the data from the microphone, `sciPy` to make data analysis easy, and the `numpy-ringbuffer` to keep track of the last ~1second of audio. 
 Pyaudio needs to be installed with the following comand:
 ``sudo apt install python3-pyaudio``
 SciPy is installed with 
 ``sudo apt install python3-scipy`` 
 
-Lastly we need numpy-ringbuffer, to make continues data anlysis easier.
+Lastly we need numpy-ringbuffer, to make cintinues data anlysis easier.
 ``pip install numpy-ringbuffer``
 
 Now try the audio processing example:
 * Find what ID the micrpohone has with `python ListAvalibleAudioDevices.py`
-    Look for a device name that includes `USB` in the name.
+    Look for a device name that includes `USB` im namen.
 * Adjust the variable `DEVICE_INDEX` in the `ExampleAudioFFT.py` file.
     See if you are getting results printed out from the microphone. Try to understand how the code works.
     Then run the file by typing `python ExampleAudioFFT.py`
@@ -156,6 +156,8 @@ Now try the audio processing example:
 Using the microphone, try one of the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
+
+We were able to detect when a signal went above a certain value. We did this by looking for loud noises in a space.
 
 **2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
@@ -171,7 +173,7 @@ For technical references:
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
 
 ### (Optional Reading) Introducing Additional Concepts
-The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.
+The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pis, so you can move onto part B.** However, you are welcome to try it on your personal computer. 
 
 #### MediaPipe
 
@@ -256,6 +258,34 @@ This might take a while to get fully installed. After installation, connect your
 * This can be as simple as the boat detector showen in a previous lecture from Nikolas Matelaro.
 * Try out different interaction outputs and inputs.
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
+
+##### Interaction being prototyped:
+
+Have a system that can detect when water is boiling. This can be used when cooking pasta or rice as you need to boil water for both.
+
+##### Context ( Situational )
+
+Who is involved:
+
+What is making noise:
+
+When:
+
+Where:
+
+##### Presense ( Intent )
+
+Task Goals:
+
+When to stand out:
+
+When to blend in:
+
+##### Behavior ( Reaction )
+
+Implicit Behaviors:
+
+Explicit Behaviors:
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
