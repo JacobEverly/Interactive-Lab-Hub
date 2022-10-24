@@ -308,6 +308,9 @@ Explicit Behaviors:
     -Letting the cook know when the pasta is done.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+[Note Oct 24, 2022 (2).pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9854528/Note.Oct.24.2022.2.pdf)
+
+We ran the program within an expermientation of the actual use case. We boiled water, attached the microphoen to the pot and waited for the water to boil. After calibrating the microphone to the sound of boiling water we tested to see if the water would trigger the threshold. We wuickly realized that we should not be using a threshold and instead a running average over a certain amount of time. This will do a good job filtering out any abrupt loud noises such as someone opening the door or reaching around for a pan. We then tried to get the sensor to recognize that the box of pasta was in the frame so we will see if we need to use a sensor instead in later iterations of the system
 
 ### Part C
 ### Test the interaction prototype
@@ -315,9 +318,13 @@ Explicit Behaviors:
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+    When the enviroment has a sustained noise level below the sound of boiling water about a foot away from water.
+3. When does it fail?
+    When there is sustained conversaition on the background, continous loud noises, loud appliances being run to make other things in the kitchen.
+5. When it fails, why does it fail?
+    It fails because we are looking for a certain running average of the sound over a certain period of time.
+7. Based on the behavior you have seen, what other scenarios could cause problems?
+    Any sustained volume, for example if this was used in a restaraunt and there was not good isolation between the kitchen and the dining room, it could accidently trigger the system.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
