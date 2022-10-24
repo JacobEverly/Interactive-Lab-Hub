@@ -308,7 +308,10 @@ Explicit Behaviors:
     -Letting the cook know when the pasta is done.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
-[Note Oct 24, 2022 (2).pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9854528/Note.Oct.24.2022.2.pdf)
+
+
+[Note.Oct.24.2022.2.pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9854532/Note.Oct.24.2022.2.pdf)
+
 
 We ran the program within an expermientation of the actual use case. We boiled water, attached the microphoen to the pot and waited for the water to boil. After calibrating the microphone to the sound of boiling water we tested to see if the water would trigger the threshold. We wuickly realized that we should not be using a threshold and instead a running average over a certain amount of time. This will do a good job filtering out any abrupt loud noises such as someone opening the door or reaching around for a pan. We then tried to get the sensor to recognize that the box of pasta was in the frame so we will see if we need to use a sensor instead in later iterations of the system
 
