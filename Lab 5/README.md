@@ -276,26 +276,33 @@ What the system will do is monitor the noise from the pot of water and once a th
 ##### Context ( Situational )
 
 Who is involved:
+
 A Cook and the pasta they want to make.
 
 What is making noise:
+
 The boiling pot of water that is intended to be used to make pasta.
 
 When:
+
 During the meal being prepared by the chef
 
 Where:
+
 In the kitchen or wherever the meal is being prepared.
 
 ##### Presense ( Intent )
 
 Task Goals:
+
 To inform the cook of when the water is ready, so they can throw the pasta in and cook it.
 
 When to stand out:
+
 When the water is ready for the pasta to be thrown in
 
 When to blend in:
+
 All the other times when the cook is cooking.
 
 ##### Behavior ( Reaction )
@@ -320,19 +327,39 @@ We ran the program within an expermientation of the actual use case. We boiled w
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
+    
     When the enviroment has a sustained noise level below the sound of boiling water about a foot away from water.
+
 3. When does it fail?
+    
     When there is sustained conversaition on the background, continous loud noises, loud appliances being run to make other things in the kitchen.
+
 5. When it fails, why does it fail?
+    
     It fails because we are looking for a certain running average of the sound over a certain period of time.
+
 7. Based on the behavior you have seen, what other scenarios could cause problems?
+    
     Any sustained volume, for example if this was used in a restaraunt and there was not good isolation between the kitchen and the dining room, it could accidently trigger the system.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? 
+
+The user could be aware of too much noise causing a misfire, but will be to busy to consider this bug.
+
+
+3. How bad would they be impacted by a miss classification?
+
+If the user was alerted too early before the water was boiling, they would easily see that the water wasn't boiling and ignore the sugestion
+
+5. How could change your interactive system to address this?
+
+We are considering more visual options such as, training a model on the images of boiling water and having a visual implementation.
+
+
+7. Are there optimizations you can try to do on your sense-making algorithm.
+
+Supply the model with a good set of images so the anaylsis system becomes more robust.
 
 ### Part D
 ### Characterize your own Observant system
@@ -355,11 +382,21 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
     Can also be reporgammed and used for the purpose of cooking rice.
 * How does X feel?
+    The current system feels a little intrusive when mounted on the ledge of the pasta pot.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+So we decided to change the design of the system from using an average threshold, to using a teachable machine. This was becuse of numerous issues that we discovered in Part 1 that we found to casuse the system to not be a viable option.
+
+These issues were
+    1) Audible failures are the main cause of failure and busy ktichens would be too loud for the device to operate properly
+    2) If the system provided a false positive the user would lose confidence in the system and most likely just ignore it.
+    3) The audible threshold was difficult to calibrate, and was proving to be very inconsistent in.
+    
+These issues have caused us to pivot away from this auduble threshold design. Instead we are going to create a set of images and use that set to teach a teachable machine. The machine will still be used to detect when the water is boiling. We will also retain a feature to start a timer when the water starts boiling, to index when the pasta will be done cooking.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
