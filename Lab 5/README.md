@@ -388,7 +388,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 ### Part 2.
 
-So we decided to change the design of the system from using an average threshold, to using a teachable machine. This was becuse of numerous issues that we discovered in Part 1 that we found to casuse the system to not be a viable option.
+So we decided to change the design of the system from using images captured with the webcam and using a machine learning model, that has been trained using teachable machine. This was becuse of numerous issues that we discovered in Part 1 that we found to cause the system to not be a viable option.
 
 These issues were
     1) Audible failures are the main cause of failure and busy ktichens would be too loud for the device to operate properly
@@ -397,4 +397,18 @@ These issues were
     
 These issues have caused us to pivot away from this audible threshold design. Instead we are going to create a set of images and use that set to teach a teachable machine. The machine will still be used to detect when the water is boiling. We will also retain a feature to start a timer when the water starts boiling, to index when the pasta will be done cooking.
 
+## Capturing images from the webcam
+
+We used the python [OpenCV 2](https://pythonexamples.org/python-opencv-cv2-resize-image/#2) library to capture and resize the images of the webcam.
+
+## Training of the model
+
+We used the Pi to capture the image with the webcam. Firstly, we captured images of the cold water. We slightly moved the camera over and over again and changed to lights to get a training set sufficiently large and diversified. 
+
+Afterwards, we repeated the steps while the water was boiling.
+
+Due to the fact that the CPU and Ram were not sufficient to generate the model, we transferred the
+
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+
