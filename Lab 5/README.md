@@ -1,7 +1,8 @@
 # Observant Systems
 
 **NAMES OF COLLABORATORS HERE**
-Martin Eckartd
+
+Martin Eckardt (me424)
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
