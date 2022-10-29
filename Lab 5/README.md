@@ -388,8 +388,6 @@ During the lecture, we mentioned questions to help characterize a material:
 
 ### Part 2.
 
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
 So we decided to change the design of the system from using an average threshold, to using a teachable machine. This was becuse of numerous issues that we discovered in Part 1 that we found to casuse the system to not be a viable option.
 
 These issues were
