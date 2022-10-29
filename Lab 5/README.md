@@ -395,6 +395,6 @@ These issues were
     2) If the system provided a false positive the user would lose confidence in the system and most likely just ignore it.
     3) The audible threshold was difficult to calibrate, and was proving to be very inconsistent in.
     
-These issues have caused us to pivot away from this auduble threshold design. Instead we are going to create a set of images and use that set to teach a teachable machine. The machine will still be used to detect when the water is boiling. We will also retain a feature to start a timer when the water starts boiling, to index when the pasta will be done cooking.
+These issues have caused us to pivot away from this audible threshold design. Instead we are going to create a set of images and use that set to teach a teachable machine. The machine will still be used to detect when the water is boiling. We will also retain a feature to start a timer when the water starts boiling, to index when the pasta will be done cooking.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
