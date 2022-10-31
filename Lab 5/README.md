@@ -399,11 +399,11 @@ These issues have caused us to pivot away from this audible threshold design. In
 
 ## Capturing images from the webcam
 
-We used the python [OpenCV 2](https://pythonexamples.org/python-opencv-cv2-resize-image/#2) library to capture and resize the images of the webcam. in a first version we mounted the camera directly over the pot:
+We used the python [OpenCV 2](https://pythonexamples.org/python-opencv-cv2-resize-image/#2) library to capture and resize the images of the webcam. In the first version we mounted the camera directly over the pot:
 
 ![Camera mounted over pot](images/IMG_3661.jpeg)
 
-Therefore we mounted the camera close to the pot:
+However, when testing the prototype we were concerned for the camera since it would get really wet from all the steam coming from the pot of boiling water. Therefore, we mounted the camera close to the pot:
 
 ![Camera mounted next to pot](images/IMG_3664.jpeg)
 
@@ -413,10 +413,21 @@ We used the Pi to capture the image with the webcam. Firstly, we captured images
 
 ![Model trained](images/IMG_3662.jpeg)
 
+Then we moved them to a google drive and trained the model on our laptop. 
+
 ![Model trained](images/IMG_3663.jpeg)
 
-Then we moved them to a google drive and train the model on our laptop. The trained model was then transferred back to our Pi.
+The model was trained to detect three different states:
+- Water not boiling
+- Water boiling
+- Pasta in pot
+ 
+The trained model was then transferred back to our Pi and run using Tensorflow Lite.
+
+## Interaction design
+
+You can find the program [here](project/boiling_water_detection.py)
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
-
+[Video of interaction](https://youtu.be/GH0tbGkG7d0)
