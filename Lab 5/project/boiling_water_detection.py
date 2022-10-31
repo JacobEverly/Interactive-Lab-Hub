@@ -4,6 +4,8 @@ from PIL import Image
 import numpy as np
 import time
 from gtts import gTTS
+import pyglet
+
 
 def load_labels(path): 
   with open(path, 'r') as f:
@@ -48,7 +50,7 @@ def say(soundId):
     sound = pyglet.media.load(sounds[soundId]['filename'], streaming=False)
     sound.play()
     #prevent from killing
-    sleep(sound.duration)
+    time.sleep(sound.duration)
 
 sounds = {
     "water boiling": {
