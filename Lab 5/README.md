@@ -388,7 +388,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 ### Part 2.
 
-So we decided to change the design of the system from using images captured with the webcam and using a machine learning model, that has been trained using teachable machine. This was becuse of numerous issues that we discovered in Part 1 that we found to cause the system to not be a viable option.
+So we decided to change the design of the system from using sound to using images captured with the webcam. These images are analyzed using a machine learning model, that has been trained using teachable machine by Google. This was becuse of numerous issues that we discovered in Part 1 that we found to cause the system to not be a viable option.
 
 These issues were
     1) Audible failures are the main cause of failure and busy ktichens would be too loud for the device to operate properly
@@ -399,15 +399,23 @@ These issues have caused us to pivot away from this audible threshold design. In
 
 ## Capturing images from the webcam
 
-We used the python [OpenCV 2](https://pythonexamples.org/python-opencv-cv2-resize-image/#2) library to capture and resize the images of the webcam.
+We used the python [OpenCV 2](https://pythonexamples.org/python-opencv-cv2-resize-image/#2) library to capture and resize the images of the webcam. in a first version we mounted the camera directly over the pot:
+
+![Camera mounted over pot](images/IMG_3661.jpeg)
+
+Therefore we mounted the camera close to the pot:
+
+![Camera mounted next to pot](images/IMG_3664.jpeg)
 
 ## Training of the model
 
-We used the Pi to capture the image with the webcam. Firstly, we captured images of the cold water. We slightly moved the camera over and over again and changed to lights to get a training set sufficiently large and diversified. 
+We used the Pi to capture the image with the webcam. Firstly, we captured images of the cold water. We slightly moved the camera over and over again and changed to lights to get a training set sufficiently large and diversified. Afterwards, we repeated the steps while the water was boiling.  We tried to train it on the Pi, but the ressources were not sufficient.
 
-Afterwards, we repeated the steps while the water was boiling.
+![Model trained](images/IMG_3662.jpeg)
 
-Due to the fact that the CPU and Ram were not sufficient to generate the model, we transferred the
+![Model trained](images/IMG_3663.jpeg)
+
+Then we moved them to a google drive and train the model on our laptop. The trained model was then transferred back to our Pi.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
