@@ -422,7 +422,7 @@ The model was trained to detect three different states:
 - Water boiling
 - Pasta in pot
  
-The trained model was then transferred back to our Pi and run using Tensorflow Lite.
+The trained model was then transferred back to our Pi. There it was run using Tensorflow Lite.
 
 ## Interaction design
 
