@@ -70,15 +70,17 @@ def handler(signum, frame):
 #when sigint happens, do the handler callback function
 signal.signal(signal.SIGINT, handler)
 
-fallen = False
+
+fall_message = User + ' has fallen. Send help!'
 
 while True:
-    val = [abs(v) for v in msa.acceleration]
-    #print(val)
-    if max(val) > 9.8*1.5:
-        fallen = True
-    fall_message = User + ' has fallen. Send help!'
-    if fallen:
-        client.publish(topic, fall_message)
 
-    time.sleep(0.1)
+    # Wait for person to fall
+    while max([abs(v) for v in msa.acceleration]) < 9.8*1.5:
+        time.sleep(0.1)
+
+    client.publish(topic, fall_message)
+    
+    # cooldown between falls
+    time.sleep(20)
+
