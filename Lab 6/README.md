@@ -158,6 +158,13 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
+5 possible ideas for the design of our system.
+
+[Note Nov 3, 2022.pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9946141/Note.Nov.3.2022.pdf)
+
+After considering all of the formentioned ideas, we have decided to move foward with the first idea.
+
+
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
