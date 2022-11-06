@@ -110,8 +110,15 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+![IMG_4391](https://user-images.githubusercontent.com/50084830/200175883-fa3329e0-0d00-4d26-8b3c-8a6818cb8b3c.JPG)
+
+MQTT shows a dropdown list of topics under the IDD master topic. When a capacitive touch is sensed, the message under the topic updates to the input number of the touch that was sensed. 
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+![IMG_4392](https://user-images.githubusercontent.com/50084830/200175884-36bc4c61-b25b-4950-888f-27a9cb29b8d9.JPG)
+
+The gyro publishing and monitoring was implemented in gyro_sender.py above. 
 
 ### Part D
 ### The One True ColorNet
