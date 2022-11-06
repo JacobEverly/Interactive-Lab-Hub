@@ -177,6 +177,7 @@ With groups that might struggle to get up after falling, such as the elderly or 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 ![Page1](https://user-images.githubusercontent.com/112036223/200179458-3cdea732-9dbc-478c-b115-82d6bf66cdc1.jpg)
+<img width="928" alt="Screen Shot 2022-11-06 at 10 33 02 AM" src="https://user-images.githubusercontent.com/112036223/200179821-a3af9149-3ef2-4c3a-93de-1399cb95039f.png">
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
