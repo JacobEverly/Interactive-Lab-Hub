@@ -187,5 +187,9 @@ With groups that might struggle to get up after falling, such as the elderly or 
 
 [Video IDD Lab 6 User Test](https://youtube.com/shorts/wV0Rsyy4nA8?feature=share)
 
+![Setup](imgs/Lab%206.png)
+
+
+
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
