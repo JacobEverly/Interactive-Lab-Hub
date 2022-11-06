@@ -1,7 +1,7 @@
 # Little Interactions Everywhere
 
 **NAMES OF COLLABORATORS HERE**
-Big Coop (CJM424) , Martini Eckartd 
+Big Coop (CJM424) , Martin Eckardt (me424)
 
 ## Prep
 
