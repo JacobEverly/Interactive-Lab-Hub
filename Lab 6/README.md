@@ -160,7 +160,12 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 5 possible ideas for the design of our system.
 
-[Note Nov 3, 2022.pdf](https://github.com/JacobEverly/Interactive-Lab-Hub/files/9946141/Note.Nov.3.2022.pdf)
+![Page1](https://user-images.githubusercontent.com/112036223/200179458-3cdea732-9dbc-478c-b115-82d6bf66cdc1.jpg)
+![Page2](https://user-images.githubusercontent.com/112036223/200179461-150c97ac-fecb-4c9f-a17e-62a54ec19da5.jpg)
+![Page3](https://user-images.githubusercontent.com/112036223/200179462-eaf96fc5-01b8-4a71-bf92-bf462e3e3f9e.jpg)
+![Page4](https://user-images.githubusercontent.com/112036223/200179463-7adbdab1-98c9-413d-935e-e58ca104ac1a.jpg)
+![Page5](https://user-images.githubusercontent.com/112036223/200179464-500055b4-acae-47b7-b959-90c1982a265a.jpg)
+
 
 After considering all of the formentioned ideas, we have decided to move foward with the first idea.
 
