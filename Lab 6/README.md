@@ -181,6 +181,8 @@ With groups that might struggle to get up after falling, such as the elderly or 
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+We think the blinking red light is a universal sign that something wrong is occuring. If they have the device they should be aware of its function.
+
 ![IMG_4398](https://user-images.githubusercontent.com/50084830/200183756-3b5cd42f-2669-46c2-85a5-fde96b46e5d8.jpg)
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
