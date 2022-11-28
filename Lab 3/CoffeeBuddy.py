@@ -38,19 +38,19 @@ sounds = {
     },
         "energy drink": {
         "text": "Grab your favorite energy drink!",
-        "filename": '/tmp/temp6.mp3'
+        "filename": '/tmp/temp7.mp3'
     },
         "Break": {
         "text": "Take a quick brain break for yourself",
-        "filename": '/tmp/temp6.mp3'
+        "filename": '/tmp/temp8.mp3'
     },
         "grab coffee": {
         "text": "Grab yourself a coffee and have a great day!",
-        "filename": '/tmp/temp6.mp3'
+        "filename": '/tmp/temp9.mp3'
     },
         "walk": {
         "text": "Go for a walk and enjoy the weather!",
-        "filename": '/tmp/temp6.mp3'
+        "filename": '/tmp/temp10.mp3'
     },
 }
 
@@ -87,7 +87,7 @@ else:
 
         say("coffee today?")
 
-        thresponse_ac = input("Do you like coffee? (y/n)")
+        thresponse_ac = input("Have you had a coffee today? (y/n)")
         if thresponse_ac == "y":
             say("Break")
         else:
