@@ -21,7 +21,7 @@ The UX of the report that is generated:
 
 
 
-Here is the story board that would be the ideal interaction of a succesful package being delivered:
+Here is the story board that would be the ideal interaction of a succesful package being delivered. Note at the edn once the report is verified in the smart contract. The assest on chain is automatically moved to the next owners wallet and payment is processed instantly.
 
 ![Copy of Note Nov 29, 2022](https://user-images.githubusercontent.com/112036223/205970907-e0778724-4273-4379-9f92-fd699730b72f.jpg)
 
