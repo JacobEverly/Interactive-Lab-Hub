@@ -6,6 +6,11 @@ https://www.notion.so/martineckardt/IDD-Final-Project-Physical-Bound-Tokens-06b3
 
 ## Design Process
 
+Design Overview of how the whole system generates reports, scans and gives out keys:
+
+![Note Nov 28, 2022](https://user-images.githubusercontent.com/112036223/205974335-43f136e9-e9ec-4a96-b218-fb4089cf2d26.jpg)
+
+
 Here is the story board that would be the ideal interaction of a succesful package being delivered:
 
 ![Copy of Note Nov 29, 2022](https://user-images.githubusercontent.com/112036223/205970907-e0778724-4273-4379-9f92-fd699730b72f.jpg)
