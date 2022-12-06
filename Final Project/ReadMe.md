@@ -19,6 +19,20 @@ Storyboard showing the package reaching the threshold of accelaration agreed upo
 
 ## Functioning Project
 
+Code for the project is in the following files:
+
+Code that has the library for the NFC reader and writer to be translated from C to Python so our Pi can interact with the writer. Also has the correct protocol for an iphone to be able to read the chip.
+
+https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/adafruit_st25dv16.py
+
+Code that generates the report and writes it to the NFC chip for the scanner to read:
+
+https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/writer.py
+
+Code that creates the Private and Public Keys and makes the database that is able to verifty the reports authenticity:
+
+https://github.com/JacobEverly/Interactive-Lab-Hub/blob/Fall2022/Final%20Project/verifier.py
+
 Video of the reports being Generated Properly
 
 
