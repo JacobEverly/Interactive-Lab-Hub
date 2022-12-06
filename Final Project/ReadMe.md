@@ -10,6 +10,16 @@ Design Overview of how the whole system generates reports, scans and gives out k
 
 ![Note Nov 28, 2022](https://user-images.githubusercontent.com/112036223/205974335-43f136e9-e9ec-4a96-b218-fb4089cf2d26.jpg)
 
+The overview of the Cryptographic ideas used in generating keys and verifying reports:
+
+![Screenshot 2022-12-06 115915](https://user-images.githubusercontent.com/112036223/205975029-1821e5d0-c007-4e22-9f27-4ec91ac54637.png)
+
+
+The UX of the report that is generated:
+
+![IMG_4449](https://user-images.githubusercontent.com/112036223/205974551-6aca144e-5346-40c4-8459-a12d5a8110dc.jpeg)
+
+
 
 Here is the story board that would be the ideal interaction of a succesful package being delivered:
 
