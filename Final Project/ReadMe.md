@@ -31,6 +31,19 @@ Storyboard showing the package reaching the threshold of accelaration agreed upo
 
 ![Note Nov 29, 2022 (2)](https://user-images.githubusercontent.com/112036223/205971469-3cbad939-2d9a-4a3d-bc0d-2eed2ea74bc7.jpg)
 
+Picture of the prototype being put together:
+
+The system consisted of the raspberyy pi, gyro, temp sensor, nfc writer, external battery pack:
+
+![Screenshot 2022-12-06 120501](https://user-images.githubusercontent.com/112036223/205976213-e4d11cb7-6bc0-44cb-9931-2f03d3eaa8df.png)
+
+
+![Screenshot 2022-12-06 120622](https://user-images.githubusercontent.com/112036223/205976489-7fe61820-7d7b-42c5-b721-4aeaf978f5fe.png)
+
+
+![Screenshot 2022-12-06 120700](https://user-images.githubusercontent.com/112036223/205976594-a96f82aa-a6c5-4be0-b094-2ae51bd4e9fb.png)
+
+
 
 ## Functioning Project
 
