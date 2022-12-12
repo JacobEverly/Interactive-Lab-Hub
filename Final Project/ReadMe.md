@@ -114,3 +114,12 @@ We think next we should test considering the following two designs. The minimal 
 
 Through careful testing of the device’s user interactions, we can ensure that users are able to make informed decisions and understand the implications of their actions. This will help us create a device that is both secure and user friendly, allowing users to enjoy using the device while also providing the necessary security measures. Furthermore, since we are in the unique position of providing a B2B service, training can be done more easily to ensure users have the necessary knowledge to use the device.
 
+# Group work distribution questionnaire
+
+All teamates feel that everyone contributed equal time and value to the projects final outcome. In generall the roles were as follwing
+
+Martin ( Cryptography and Blockchain )
+Cooper ( Tech stack and NFC lead )
+Jacob ( Fabrication and Hardware Stack )
+
+Before the project began the team met and established goals and expectations for everyone and these were all met throughout the project's lifetime.
